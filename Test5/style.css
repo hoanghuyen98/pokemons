@@ -1,0 +1,241 @@
+    html {
+        background-color: white;
+        line-height: 1.7;
+    }
+    
+    body {
+        font-family: 'PT Sans', Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    header {
+        padding-top: 20px;
+        /* color: white; */
+        background-image: url(https://learnwebcode.github.io/Web-Design-for-Beginners/flower.jpg);
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 165%;
+    }
+    
+    header p {
+        margin: 0;
+    }
+    /* Site Navigation */
+    
+    .site-nav {
+        margin-top: 20px;
+    }
+    
+    .site-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .site-nav li {
+        list-style: none;
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .site-nav a {
+        display: block;
+        color: #617140;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 3px solid #e5e9dc;
+        border-bottom: none;
+    }
+    
+    .site-nav a:hover {
+        background-color: #e5e9dc;
+    }
+    
+    .birds {
+        background: #c2bbb1 url(https://vignette.wikia.nocookie.net/pokemon/images/3/38/Pok%C3%A9dex_Kanto.png/revision/latest/scale-to-width-down/250?cb=20181225035320) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .birds1 {
+        background: #c2bbb1 url(https://vignette.wikia.nocookie.net/pokemon/images/8/8d/Pok%C3%A9dex_genii_johto.png/revision/latest/scale-to-width-down/250?cb=20181225035334) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .birds2 {
+        background: #c2bbb1 url(https://vignette.wikia.nocookie.net/pokemon/images/7/7b/Pok%C3%A9dex_GenIII_Hoenn.png/revision/latest/scale-to-width-down/250?cb=20181225034622) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .birds3 {
+        background: #c2bbb1 url(https://vignette.wikia.nocookie.net/pokemon/images/f/fe/Pok%C3%A9dex_geniv_sinnoh.png/revision/latest/scale-to-width-down/250?cb=20181225035345) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .birds4 {
+        background: #c2bbb1 url(https://vignette.wikia.nocookie.net/pokemon/images/1/15/Pok%C3%A9dex_genv_unova.png/revision/latest/scale-to-width-down/250?cb=20181225035356) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .birds p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .birds4 p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .birds1 p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .birds2 p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .birds3 p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .main-area h2 {
+        font-size: 200%;
+        font-weight: normal;
+        font-style: italic;
+        letter-spacing: 4px;
+        word-spacing: 10px;
+        text-transform: lowercase;
+    }
+    
+    .main-area p {
+        font-size: 108%;
+    }
+    
+    .container {
+        background-color: whitesmoke;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background: url(https://learnwebcode.github.io/Web-Design-for-Beginners/color-tile.png) left bottom repeat-x, #fff url(https://learnwebcode.github.io/Web-Design-for-Beginners/color-tile.png) left top repeat-x;
+        padding-top: 15px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    
+    .container2 {
+        background-color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* background: url(https://learnwebcode.github.io/Web-Design-for-Beginners/color-tile.png) left bottom repeat-x, #fff url(https://learnwebcode.github.io/Web-Design-for-Beginners/color-tile.png) left top repeat-x; */
+        padding-top: 15px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    
+    .content-area {
+        border-top: 3px solid #e5e9dc;
+        /* border-bottom: 3px solid #e5e9dc; */
+        margin-left: 2%;
+    }
+    
+    .main-area {
+        width: 66%;
+        float: left;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+    
+    .sidebar {
+        margin-top: 2%;
+        margin-right: 0px;
+        width: 34%;
+        float: left;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        font-size: 114%;
+        background-color: #e5e9dc;
+        background-image: -webkit-gradient( linear, left top, left bottom, from(#e5e9dc), to(#fff));
+        background-image: -webkit-linear-gradient(top, #e5e9dc, #fff);
+        background-image: -moz-linear-gradient(top, #e5e9dc, #fff);
+        background-image: -ms-linear-gradient(top, #e5e9dc, #fff);
+        background-image: -o-linear-gradient(top, #e5e9dc, #fff);
+        background-image: linear-gradient(to bottom, #e5e9dc, #fff);
+    }
+    
+    .group:before,
+    .group:after {
+        content: "";
+        display: table;
+    }
+    
+    .group:after {
+        clear: both;
+    }
+    
+    .group {
+        zoom: 1;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 85%;
+        color: #999;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    . center {
+        text-align: center;
+        border: 3px solid brown;
+        line-height: 50px;
+    }
+    
+    .b_below {}
